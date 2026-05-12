@@ -1,0 +1,821 @@
+@media (max-width: 768px) {
+  .auth-title h1 {
+    font-size: 4.5vh;
+  }
+  
+  .form-container {
+    padding: 3vh;
+  }
+  
+  .form-field {
+    height: 7vh;
+    font-size: 3vh;
+    margin-bottom: 2.5vh;
+  }
+
+  .auth-btn {
+    height: 7vh;
+    font-size: 3vh;
+  }
+
+  input[type="tel"] {
+    font-size: 3vh;
+  }
+
+  .title h1 {
+    font-size: 4.5vh;
+  }
+
+  .contact{
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    gap: 3vh;
+  }
+  
+  .contact, .map-section, .forma, .reviews-section {
+    padding: 0 3vh;
+  }
+  
+  .cont, .forma h1, .reviews-section h1 {
+    font-size: 3.5vh;
+  }
+
+  .contact-information {
+      max-width: 100% !important;
+    height: auto;
+    padding: 3vh;
+  }
+
+  .contact-photo{
+    display: none;
+  }
+
+  .map-section{
+    width:90%;
+    margin-left: 5%;
+  }
+
+  .map-container {
+        display: none;
+    }
+
+    .map-container iframe {
+        height: 40vh;
+    }
+
+  .rating-input label {
+    font-size: 4vh;
+  }
+
+  .forma{
+    width: 90%;
+    margin: 2vh auto;
+  }
+
+  .reviews-section{
+    padding: 0 2vh;
+  }
+
+  .container-review {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .card-reviews{
+    grid-template-columns: 1fr;
+    padding: 2vh;
+  }
+  
+  .review-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .review-header {
+    flex-direction: column;
+    gap: 1.5vh;
+  }
+
+  .kontakt, .info{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .kontakt h1, .info h1{
+    font-size: 2.5vh;
+    text-align: left;
+    margin-top: 0.5vh;
+  }
+
+  .about-container {
+    padding: 3vh;
+  }
+  
+  .hero-content h1 {
+    font-size: 4.5vh;
+  }
+  
+  .hero-content p {
+    font-size: 2.5vh;
+  }
+  
+  .mission-section h2, .team-section h2, .inspiration-section h2 {
+    font-size: 4vh;
+  }
+  
+  .mission-cards, .stats-grid, .team-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-icon {
+    font-size: 7vh;
+  }
+  
+  .mission-card h3 {
+    font-size: 3.2vh;
+  }
+  
+  .mission-card p {
+    font-size: 2.3vh;
+  }
+  
+  .stat-value {
+    font-size: 5vh;
+  }
+  
+  .stat-label {
+    font-size: 2.5vh;
+  }
+  
+  .stat-icon {
+    font-size: 4vh;
+  }
+  
+  .team-member img {
+    height: 35vh;
+  }
+  
+  .inspiration-content blockquote {
+    font-size: 3vh;
+  }
+  
+  .inspiration-content cite {
+    font-size: 2.5vh;
+  }
+  
+  .inspiration-content p {
+    font-size: 2.3vh;
+  }
+  
+  .eco-icon {
+    font-size: 4vh;
+  }
+
+  .forum-container {
+    padding: 2vh;
+  }
+  
+  .forum-header {
+    font-size: 4vh;
+    margin-bottom: 3vh;
+  }
+  
+  .section-item, .topic-item, .message-item, .form-container, .alert {
+    padding: 2vh;
+  }
+  
+  .section-title, .topic-title {
+    font-size: 3vh;
+  }
+  
+  .section-stats, .topic-stats, .last-post {
+    font-size: 2.3vh;
+  }
+  
+  .message-header {
+    flex-direction: column;
+    gap: 1vh;
+  }
+  
+  .message-author, .message-date {
+    font-size: 2.5vh;
+  }
+  
+  .message-text {
+    font-size: 2.3vh;
+  }
+  
+  .form-title {
+    font-size: 3vh;
+  }
+  
+  .form-input {
+    font-size: 2.3vh;
+    height: 5vh;
+    padding: 1vh 1.5vh;
+  }
+  
+  .form-textarea {
+    height: 25vh;
+  }
+  
+  .submit-btn, .create-btn {
+    font-size: 2.5vh;
+    height: 5vh;
+  }
+  
+  .alert {
+    font-size: 2.5vh;
+  }
+
+  .ecology{
+    display: none;
+  }
+
+  #none-green-future{
+    display: none;
+  }
+
+  .container-category{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .category{
+    width: 70vh;
+    height: 40vh;
+  }
+
+  .green-planet{
+    display: none;
+  }
+
+  .environmental-projects{
+    width: 50%;
+  }
+
+  .events{
+    width: 100%;
+  }
+
+  .tasks{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 75%;
+  }
+
+  .hero-image{
+    display: none;
+  }
+
+  .inspiration-image{
+    display: none;
+  }
+
+  .hero-content{
+    max-width: 20vh;
+  }
+
+  .inspiration-section{
+    max-width: 75%;
+  }
+
+  .inspiration-content p{
+    font-size: 2vh;
+  }
+
+  .mission-cards{
+    max-width: 80% !important;
+  }
+
+  .mission-card{
+    max-width: 90% !important;
+  }
+
+  .stats-grid{
+    max-width: 80% !important;
+  }
+
+  .stat-item{
+    max-width: 90% !important;
+  }
+
+  .team-grid{
+    max-width: 80% !important;
+  }
+
+  .team-member{
+    max-width: 90% !important;
+  }
+
+  .contact-photo{
+    display: none;
+  }
+
+  .contact-information{
+    max-width: 60% !important;
+  }
+
+  .map-container{
+    display: none;
+  }
+
+  .card-reviews{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+ .article-container {
+      flex-direction: column;
+      padding: 1.5vh;
+  }
+
+  .categories-sidebar {
+      flex: 0 0 auto;
+      width: 100%;
+      height: auto;
+      margin-bottom: 3vh;
+  }
+
+  .article-list {
+      grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr));
+  }
+
+  .form-container {
+      margin-left: 10%;
+      max-width: 80%;
+  }
+
+  .contact {
+      flex-direction: column;
+      gap: 3vh;
+  }
+
+  .contact-information {
+      width: 100%;
+      height: auto;
+  }
+
+  .map-section {
+      width: 90%;
+      margin-left: 5%;
+    }
+
+.article-container {
+      flex-direction: column;
+  }
+
+  .article-sidebar {
+      flex: 0 0 auto;
+      width: 100%;
+      margin-top: 4vh;
+  }
+
+  .initiatives-grid {
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  .article-content {
+      padding: 2.5vh;
+  }
+
+  .article-header h1 {
+      font-size: 3.5vh;
+  }
+
+  .videos-container{
+    grid-template-columns: 1fr;
+    gap: 5vh;
+  }
+
+  .section-header h1{
+    font-size: 4vh;
+  }
+
+  .section-header p{
+    font-size: 2vh;
+  }
+
+  .video-modal iframe{
+    width: 95%;
+    height: 50%;
+  }
+
+  .calendar-filters {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .month-navigation {
+        align-self: center;
+    }
+    
+    .calendar-day {
+        padding: 0.5vh;
+    }
+    
+    .events-list {
+        grid-template-columns: 1fr;
+    }
+
+    .logo-image {
+        height: 6vh;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+  .auth-title h1 {
+    font-size: 4vh;
+    margin-bottom: 3vh;
+  }
+  
+  .form-container {
+    padding: 2vh;
+    width: 100%;
+  }
+  
+  .form-field {
+    height: 6vh;
+    font-size: 2.8vh;
+    margin-bottom: 2vh;
+    padding: 1vh 1.5vh;
+  }
+  
+  .auth-btn {
+    height: 5vh;
+    font-size: 2vh;
+    padding: 1.2vh;
+  }
+
+  input[type="tel"] {
+    font-size: 2.8vh;
+  }
+
+  .title h1 {
+    font-size: 4vh;
+    margin: 3vh 0;
+  }
+  
+  .contact, .map-section, .forma, .reviews-section {
+    padding: 0 2vh;
+  }
+
+  .cont, .forma h1, .reviews-section h1 {
+        font-size: 2vh;
+        margin-bottom: 1vh;
+    }
+  
+  .contact-photo img {
+    display: none;
+  }
+
+  .contact-information{
+    width: 86vh;
+  }
+  
+.contact-information p {
+        font-size: 2.3vh;
+    }
+
+    .kontakt h1, .info h1 {
+        font-size: 2.2vh;
+    }
+
+  .map-container {
+    height: 40vh;
+  }
+
+  .category{
+    width: 90%;
+  }
+
+  .events{
+    width: 40vh;
+    margin-left: -10vh;
+  }
+
+  .event{
+    width: 40vh;
+    height: 40vh;
+    margin-left: -10vh;
+  }
+
+  .tasks {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 48vh;
+    margin-left: 5vh;
+  }
+
+  .task{
+    width: 88%;
+    font-size: 1.8vh;
+    height: auto;
+  }
+
+
+  .forma{
+    width: 50vh;
+    padding: 1vh;
+    margin-left: 5vh;
+  }
+
+  .forma h1{
+    font-size: 2.8vh;
+  }
+  
+  p, .kontakt h1, .info h1 {
+    font-size: 2.5vh;
+  }
+  
+  .rating-input label {
+    font-size: 3vh;
+  }
+  
+  textarea {
+    height: 25vh;
+    font-size: 2.3vh;
+  }
+  
+  .button-otzov {
+    width: 40%;
+    height: 5vh;
+    font-size: 2.2vh;
+    margin-left: 15vh;
+    margin-top: 2vh;
+  }
+  
+  .review-avatar, .avatar-placeholder {
+    width: 12vh;
+    height: 12vh;
+  }
+  
+  .review-name {
+    font-size: 2.5vh;
+  }
+  
+  .review-rating {
+    font-size: 2.8vh;
+  }
+  
+  .review-text {
+    font-size: 2vh;
+  }
+  
+  .review-date {
+    font-size: 1.8vh;
+  }
+
+  .card-reviews{
+    gap: 2vh;
+    padding: 1vh;
+  }
+
+  .about-container {
+    padding: 2vh;
+  }
+  
+  .hero-content h1 {
+    font-size: 4vh;
+    margin-bottom: 2vh;
+  }
+  
+  .hero-content p {
+    font-size: 2.3vh;
+  }
+  
+  .hero-image img, .inspiration-image img {
+    height: 30vh;
+  }
+  
+  .mission-section h2, .team-section h2, .inspiration-section h2 {
+    font-size: 3.5vh;
+    margin-bottom: 3vh;
+  }
+  
+  .mission-card {
+    padding: 3vh;
+  }
+  
+  .card-icon {
+    font-size: 6vh;
+  }
+  
+  .mission-card h3 {
+    font-size: 3vh;
+  }
+  
+  .mission-card p {
+    font-size: 2.2vh;
+  }
+  
+  .stat-item {
+    padding: 2vh;
+  }
+  
+  .stat-value {
+    font-size: 4.5vh;
+  }
+  
+  .stat-label {
+    font-size: 2.3vh;
+  }
+  
+  .team-member img {
+    height: 20vh;
+  }
+  
+  .team-member h3 {
+    font-size: 2.8vh;
+  }
+  
+  .team-member p {
+    font-size: 2.2vh;
+  }
+  
+  .inspiration-content blockquote {
+    font-size: 2.2vh;
+    padding-left: 1.6vh;
+  }
+  
+  .inspiration-content cite {
+    font-size: 2.3vh;
+  }
+  
+  .inspiration-content p {
+    font-size: 2.2vh;
+  }
+  
+  .eco-icon {
+    font-size: 3.5vh;
+  }
+
+  .forum-header {
+    font-size: 3.5vh;
+  }
+  
+  .section-item, .topic-item, .message-item, .form-container, .alert {
+    margin-bottom: 2vh;
+  }
+  
+  .section-title, .topic-title {
+    font-size: 2.8vh;
+  }
+  
+  .section-stats, .topic-stats, .last-post {
+    font-size: 2.1vh;
+  }
+  
+  .message-author, .message-date {
+    font-size: 2.3vh;
+  }
+  
+  .message-text {
+    font-size: 2.1vh;
+  }
+  
+  .form-title {
+    font-size: 2.8vh;
+  }
+  
+  .form-input {
+    font-size: 2.1vh;
+    height: 4.5vh;
+  }
+  
+  .form-textarea {
+    height: 30vh;
+  }
+  
+  .submit-btn, .create-btn {
+    font-size: 2.3vh;
+    height: 4.5vh;
+  }
+  
+  .alert {
+    font-size: 2.3vh;
+  }
+
+  .ecology{
+    display: none;
+  }
+
+  #none-green-future{
+    display: none;
+  }
+
+  .container-category{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .green-planet{
+    display: none;
+  }
+
+  .inspiration-section{
+    max-width: 80%;
+  }
+
+  .inspiration-content p{
+    font-size: 1.2vh;
+    word-break:break-all;
+  }
+
+  .map-container{
+    display: none;
+  }
+
+  .article-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .article-card {
+        padding: 2vh;
+    }
+    
+    .article-header h1 {
+        font-size: 4vh;
+    }
+    
+    .categories-sidebar li {
+        text-align: center;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .search-container {
+        width: 60%;
+        margin-top: 1.5vh;
+    }
+    
+    .search-input {
+        width: 100%;
+    }
+
+     .initiatives-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .article-content {
+        padding: 2vh;
+        font-size: 1.9vh;
+    }
+    
+    .article-meta span {
+        font-size: 1.8vh;
+    }
+    
+    .related-article h4 {
+        font-size: 1.9vh;
+    }
+    
+    .btn-article {
+        width: 100%;
+        padding: 1.2vh;
+    }
+
+
+
+.calendar-page {
+        padding: 2vh;
+    }
+    
+    .calendar-weekdays > div {
+        font-size: 1.6vh;
+    }
+    
+    .day-number {
+        font-size: 1.6vh;
+    }
+    
+    .event-card {
+        flex-direction: column;
+    }
+    
+    .event-date {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 1vh;
+        padding: 1.5vh;
+    }
+
+    .review-item{
+      width: 90%;
+      margin-left: 2vh;
+    }
+
+    .stat-card{
+      width: 44vh;
+    }
+
+}
